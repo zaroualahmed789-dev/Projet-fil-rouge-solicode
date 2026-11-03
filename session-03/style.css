@@ -6,6 +6,14 @@
 body{
     background-color:white;
 }
+
+a{
+    color: #000000;
+}
+a:hover{
+    color: #ca7e03;
+    
+}
 header {
     display: flex;
     align-items: center;
@@ -71,7 +79,6 @@ span {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 .hero-contunar .image1 {
     width: 400px;
@@ -504,6 +511,9 @@ span {
     margin-left: 40px;
     border: 1px solid goldenrod;
 }
+.contenu8 button:hover{
+    background-color: #fcf8f8;
+}
  .footer{
     display: flex;
     justify-content: space-between;
@@ -527,9 +537,7 @@ span {
     margin-right: 50px; 
  }
  .footer-box:hover{
-    transform: translateY(-3px);
-
-    
+    transform: translateY(-3px); 
 }
  .footer-box p{
     padding: 10px;
